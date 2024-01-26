@@ -224,8 +224,19 @@ ul li {
   margin-bottom: 20px;
   color: #496bf2;
 }
-.icons {
- 
+.icons{
+  width: 10%;
+  margin: 0 auto;
+  background-color: crimson;
+  width: 25px;
+  margin: 0 auto;
+  border-radius: 50%;
+  float: left;
+}
+
+.icon2:nth-child(2){
+ float:left;
+
 }
 .logo {
  
