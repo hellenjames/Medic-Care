@@ -16,7 +16,7 @@
     <nav>
       <div class="container">
         <div class="nav-left">
-          <img src="images/logo.jpg" width="200" />
+          <img src="images/logo.jpg" width="250" />
         </div>
         <div class="nav-right">
           <ul>
@@ -32,19 +32,19 @@
     <section class="clearfix"></section>
     <section class="hero">
       <div class="hero-content">
-        <h1>Quality Care to Restore Your<br />Health<br /></h1>
+        <h1>Quality Care to Restore Your Health</h1>
         <p>
           Tech Care specializes in a wide variety of health issues, relative to
           absolutely any age or severity level. Our seasoned team of doctors
           practical nurses will be glad to come to your aide on a 24/7 basis!
         </p>
         <div class="buttons">
-          <div class="button1">
-            <button>About Us</button>
-          </div>
-          <div class="button2">
-            <button>Book Appointment</button>
-          </div>
+          <!-- <div class="button1"> -->
+          <button class="btn btn-blue">About Us</button>
+          <!-- </div> -->
+          <!-- <div class="button2"> -->
+          <button class="btn btn-green">Book Appointment</button>
+          <!-- </div> -->
         </div>
       </div>
     </section>
@@ -53,6 +53,7 @@
     <section class="services">
       <div class="container">
         <!-- Service 1 -->
+        <div style="background-color: green;">
         <div class="service">
           <img src="/images/Qualified doctors.png" />
           <h3>Qualified Doctors</h3>
@@ -81,17 +82,19 @@
           </p>
         </div>
       </div>
+      </div>
     </section>
 
     <section class="clearfix"></section>
 
     <section class="about-us">
+      <div class="container">
       <div class="section-image">
         <img src="/images/medical-clinic.jpg" width="100%" />
       </div>
       <div class="sectionContent">
         <div>
-          <h2><span class="About">About</span> <span class="Us">Us</span></h2>
+          <h2><span class="green">About</span> <span class="blue">Us</span></h2>
         </div>
 
         <p>
@@ -104,15 +107,15 @@
           oil recommendations, lifestyle recommendations, as well as what types
           of foods can aid your healing process.
         </p>
-        <div class="readMoreButton">
-          <button>Read More</button>
-        </div>
+
+        <button class="btn btn-blue">Read More</button>
       </div>
+    </div>
     </section>
     <section class="clearfix"></section>
 
     <section class="testimonials">
-      <h2><span>Thousands</span> Of Happy Patients</h2>
+      <h2><span class="blue">Thousands</span> Of Happy Patients</h2>
 
       <img class="lastimg1" src="images/male-profile.png" width="100" />
       <img class="lastimg2" src="images/female-profile.png" width="150" />
@@ -145,43 +148,40 @@
     </section>
     <section class="clearfix"></section>
 
-<section class="contact"></section>
-    <div class="subMainBackgroundImage">
-      <div class="placeholders">
-        <div class="inputButton">
-          <input
-            type="text"
-            style="padding-top: 2em"
-            placeholder="Enter Your Name"
-          />
-        </div>
-        <div class="inputButton1">
-          <input type="text" placeholder="Enter Your Email" />
-        </div>
-        <div class="inputButton2">
-          <input type="text" placeholder="Enter The Subject" />
-        </div>
-        <div class="inputButton3">
-          <input type="text" placeholder="Message" />
-        </div>
+    <section class="contact">
+      <h2><span class="green">We'd love to</span> hear from you</h2>
+      <div class="subMainBackgroundImage">
+        <form class="form">
+          <div class="input">
+            <input type="text" placeholder="Enter Your Name" />
+          </div>
+          <div class="input">
+            <input type="text" placeholder="Enter Your Email" />
+          </div>
+          <div class="input">
+            <input type="text" placeholder="Enter The Subject" />
+          </div>
+          <div class="textarea">
+            <textarea type="text" placeholder="Message" rows="15"></textarea>
+          </div>
+
+          <button class="btn btn-blue">Submit</button>
+        </form>
       </div>
-      <div class="inputsubmitbutton">
-        <button>Submit</button>
-      </div>
-    </div>
+    </section>
     <div class="clearfix"></div>
-    <section>
+    <footer>
       <div class="logo">
         <img src="images/logo.jpg" width="280" />
       </div>
 
       <div>
         <div class="icons">
-          <img src="images/twitter.png" width="5%" />
+          <img src="images/twitter.png" width="40" />
           <img src="images/facebook.png" width="5%" />
           <img src="images/instagram.png" width="5%" />
         </div>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
