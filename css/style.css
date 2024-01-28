@@ -225,18 +225,31 @@ ul li {
   color: #496bf2;
 }
 .icons {
-  width: 10%;
+  width: 9%;
   margin: 0 auto;
   background-color: crimson;
-  float:left;
+  float: left;
+  /* display: inline-block; */
+  text-align: left;
   /* width: 25px; */
   /* margin: 0 auto; */
   /* border-radius: 50%; */
-  
 }
-
+.footerMainContainer {
+  width: 80%;
+  margin: auto;
+}
+.footerCntainer {
+  float: right;
+}
+.li {
+  float: right;
+}
+.links {
+  float: left;
+}
 .icon2:nth-child(2) {
-  /* float: left; */
+  float: left;
 }
 .icons {
 }
