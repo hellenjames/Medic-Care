@@ -17,7 +17,7 @@ h2 {
 .clearfix {
   clear: both;
 }
-ul li {
+nav ul li {
   list-style-position: none;
   list-style-type: none;
   float: left;
@@ -192,7 +192,7 @@ ul li {
 }
 .form {
   width: 40%;
-  padding: 30px;
+  padding-top: 50px;
 }
 .input {
   background-color: white;
@@ -224,36 +224,28 @@ ul li {
   margin-bottom: 20px;
   color: #496bf2;
 }
-.icons {
-  width: 9%;
-  margin: 0 auto;
-  background-color: crimson;
+.footerContainer {
   float: left;
-  /* display: inline-block; */
-  text-align: left;
-  /* width: 25px; */
-  /* margin: 0 auto; */
-  /* border-radius: 50%; */
+  width: 25%;
+ 
 }
-.footerMainContainer {
-  width: 80%;
-  margin: auto;
+.footerContainer h3{
+  font-size: 25px;
+  padding-bottom:20px;
 }
-.footerCntainer {
-  float: right;
+.footerContainer ul li{
+  
+  list-style-type: none;
+  font-size: 20px;
+  padding-bottom:20px;
+ 
 }
-.li {
-  float: right;
+.footerContainer ul li img{
+  margin-right: 20px;
 }
-.links {
-  float: left;
+.footerContainer .icons{
+  margin: 20px 0  0 20px;
 }
-.icon2:nth-child(2) {
-  float: left;
-}
-.icons {
-}
+.facebook {
+  margin: 0 10%;}
 
-.green {
-  color: #2dd6c1;
-}
