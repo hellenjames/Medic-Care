@@ -174,7 +174,7 @@ nav ul li {
 }
 
 .dot1 {
-  background-color: #496bf2
+  background-color: #496bf2;
 }
 .dot2 {
   background-color: #2dd6c1;
@@ -224,25 +224,25 @@ nav ul li {
 .footerContainer {
   float: left;
   width: 25%;
- 
 }
-.footerContainer h3{
+.footerContainer h3 {
   font-size: 25px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
-.footerContainer ul li{
-  
+.footerContainer ul li {
   list-style-type: none;
   font-size: 20px;
-  padding-bottom:20px;
- 
+  padding-bottom: 20px;
 }
-.footerContainer ul li img{
+.footerContainer ul li img {
   margin-right: 20px;
 }
-.footerContainer .icons{
-  margin: 20px 0  0 20px;
+.footerContainer .icons {
+  margin: 20px 0 0 20px;
 }
 .facebook {
-  margin: 0 10%;}
-
+  margin: 0 10%;
+}
+.grn {
+  color: #2dd6c1;
+}
